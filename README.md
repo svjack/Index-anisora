@@ -1,3 +1,18 @@
+```bash
+sudo apt-get update && sudo apt-get install git-lfs cbm ffmpeg
+
+#git clone https://github.com/bilibili/Index-anisora && cd Index-anisora
+git clone https://github.com/svjack/Index-anisora && cd Index-anisora
+
+cd anisoraV1_infer
+conda create -n ani_infer python=3.10
+conda activate ani_infer
+pip install ipykernel
+python -m ipykernel install --user --name=ani_infer --display-name="ani_infer"
+
+pip install -r requirements.txt
+```
+
 <div align="center">
 <img src="assets/index_icon.png" width="250"/>
 
