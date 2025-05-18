@@ -15,7 +15,8 @@ pydantic
 ray
 protobuf
 gdown
-pyav
+#pyav
+av
 tensorboard
 timm
 matplotlib
